@@ -151,10 +151,6 @@ def f_mestre():
             from condicional import f_condicional
             f_condicional()
 
-
-        if event == 'Código':
-            os.system("start \"\" https://github.com/Allanifba/calculo_numerico_pysimplegui")
-
         if event == '+Links':
             from links import f_links
             f_links()
